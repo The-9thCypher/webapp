@@ -1,21 +1,23 @@
 header{
     display: flex;
+    margin-left: 30px;
+    /* background-color: #1abc9c; */
 }
 
 .thenine{
     font-family: 'segoe UI';
     color: #3498db;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .cypher{
-    font-family: 'segoe UI';
-    font-size: 30px;
+    font-family: cursive;
+    font-size: 45px;
 }
 
 nav { 
-    margin: 25px auto 0;
-    margin-left: 30px ;
+    margin: 40px auto 0;
+    margin-left: 100px ;
     position: relative;
     width: auto;
     height: 50px;
@@ -87,8 +89,110 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     background-color: #1abc9c;
 }
 
+.message{
+    background-color: #1abc9c;
+    color: #fff;
+    margin: 45px;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 3px 0 #000;
+}
+
+.message:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.container{
+    margin-left: 30px;
+    display: flex;
+    /* background-color: #1abc9c; */
+}
+
 .intro{
-    background-color: #000;
+    margin-top: 200px;
+    /* background-color: aqua; */
     width: 50%;
     height: 300px;
+    animation-name: intro;
+    animation-duration: 1s;
+}
+
+.name{
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.github{
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+    font-weight: 600;
+    border-color: #000;
+    box-shadow: 0 3px 0 grey;
+}
+
+.github:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.linkedin{
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+    font-weight: 600;
+    box-shadow: 0 3px 0 #000;
+}
+
+.linkedin:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.image{
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 120px;
+    width: 35%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    animation-name: avatar;
+    animation-duration: 2s;
+}
+
+@keyframes avatar {
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0 ease);
+    }
+}
+
+@keyframes intro {
+    from{
+        transform: translatex(-500px);
+    }
+    to{
+        transform: translateX(0 ease-in);
+    }
+}
+
+.text{
+    font-family: 'segoe UI';
+    color: #3498db;
+    font-size: 40px;
+}
+
+.resources{
+    /* background-color: #1abc9c; */
+    justify-content: center;
+    display: flex;
 }
