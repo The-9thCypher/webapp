@@ -100,6 +100,12 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     box-shadow: 0 3px 0 #000;
 }
 
+.message a {
+    text-decoration: none;
+    color: #fff;
+    cursor: default;
+}
+
 .message:active{
     box-shadow: none;
     transform: translateY(5px);
