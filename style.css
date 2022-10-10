@@ -182,6 +182,36 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     animation-duration: 2s;
 }
 
+.frontend{
+    /* background-color: #34495e; */
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.backend{
+    /* background-color: #34495e; */
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.reactive{
+    /* background-color: #34495e; */
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
 .text{
     font-family: 'segoe UI';
     color: #3498db;
