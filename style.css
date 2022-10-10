@@ -224,13 +224,10 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     }
     
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 50px;
     }
     
     .cypher{
-        font-family: cursive;
         font-size: 50px;
     }
     .ipad{
@@ -242,21 +239,14 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         position: relative;
         width: auto;
         height: 50px;
-        border-radius: 8px;
         font-size: 0;
-        background-color: #34495e;
     }
 
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 45px;
         margin-left: 100px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .container{
         margin-left: 30px;
@@ -269,35 +259,21 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         /* background-color: aqua; */
         width: 50%;
         height: 300px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .github{
-        background-color: #000;
-        border-radius: 8px;
         height: 40px;
         width: 240px;
-        font-weight: 600;
-        border-color: #000;
-        box-shadow: 0 3px 0 grey;
     }
     .linkedin{
-        background-color: #fff;
-        border-radius: 8px;
         height: 40px;
         width: 240px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .image{
         height: 500px;
         margin-left: 150px;
         margin-top: 0px;
         width: 35%;
-        border-radius: 10px;
         margin-bottom: 0px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
@@ -313,13 +289,10 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     }
 
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 45px;
     }
     
     .cypher{
-        font-family: cursive;
         font-size: 45px;
     }
 
@@ -333,31 +306,13 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         position: relative;
         width: auto;
         height: 50px;
-        border-radius: 8px;
         font-size: 0;
-        background-color: #34495e;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 45px;
         margin-left: 150px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
-    }
-    
-    .message a {
-        text-decoration: none;
-        color: #fff;
-        cursor: default;
-    }
-    
-    .message:active{
-        box-shadow: none;
-        transform: translateY(5px);
     }
     
     .container{
@@ -371,54 +326,16 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         /* background-color: aqua; */
         width: 50%;
         height: 300px;
-        animation-name: intro;
-        animation-duration: 1s;
-    }
-    
-    .name{
-        font-family: sans-serif;
-        font-weight: 900;
     }
     
     .github{
-        background-color: #000;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
-        font-weight: 600;
-        border-color: #000;
-        box-shadow: 0 3px 0 grey;
-    }
-    
-    .github:active{
-        box-shadow: none;
-        transform: translateY(5px);
-    }
-    
-    .github a{
-        text-decoration: none;
-        color: #fff;
-        cursor: default;
     }
     
     .linkedin{
-        background-color: #fff;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
-    }
-    
-    .linkedin:active{
-        box-shadow: none;
-        transform: translateY(5px);
-    }
-    
-    .linkedin a{
-        text-decoration: none;
-        color: #000;
-        cursor: default;
     }
     
     .image{
@@ -428,21 +345,7 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         width: 35%;
         border-radius: 10px;
         margin-bottom: 20px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
-    
-    .text{
-        font-family: 'segoe UI';
-        color: #3498db;
-        font-size: 40px;
-    }
-    
-    .resources{
-        /* background-color: #1abc9c; */
-        justify-content: center;
-        display: flex;
-    } 
 }
 
 @media screen and (min-width: 913px) and (max-width: 1279px) {
@@ -457,13 +360,10 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     }
     
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 35px;
     }
     
     .cypher{
-        font-family: cursive;
         font-size: 35px;
     }
     .ipad{
@@ -475,21 +375,14 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         position: relative;
         width: auto;
         height: 50px;
-        border-radius: 8px;
         font-size: 0;
-        background-color: #34495e;
     }
 
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 45px;
         margin-left: 100px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .container{
         margin-left: 30px;
@@ -502,35 +395,21 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         /* background-color: aqua; */
         width: 50%;
         height: 300px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .github{
-        background-color: #000;
-        border-radius: 8px;
         height: 40px;
         width: 240px;
-        font-weight: 600;
-        border-color: #000;
-        box-shadow: 0 3px 0 grey;
     }
     .linkedin{
-        background-color: #fff;
-        border-radius: 8px;
         height: 40px;
         width: 240px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .image{
         height: 400px;
         margin-left: 150px;
         margin-top: 0px;
         width: 35%;
-        border-radius: 10px;
         margin-bottom: 0px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
@@ -546,12 +425,9 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         margin-left: 30px;
     }
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 50px;
     }
     .cypher{
-        font-family: cursive;
         font-size: 50px;
     }
     .ipad{
@@ -564,29 +440,19 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         position: relative;
         width: 420px;
         height: 50px;
-        border-radius: 8px;
-        font-size: 0;
-        background-color: #34495e;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 10px;
         margin-left: 0px;
         margin-right: 40px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .intro{
         margin-top: 150px;
         /* background-color: aqua; */
         width: 65%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .image{
         height: 400px;
@@ -595,8 +461,6 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         width: 35%;
         border-radius: 10px;
         margin-bottom: 20px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
@@ -612,12 +476,9 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         margin-left: 30px;
     }
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 50px;
     }
     .cypher{
-        font-family: cursive;
         font-size: 50px;
     }
     .ipad{
@@ -630,81 +491,54 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         position: relative;
         width: 420px;
         height: 50px;
-        border-radius: 8px;
         font-size: 0;
-        background-color: #34495e;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 10px;
         margin-left: 10px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .intro{
         margin-top: 150px;
         /* background-color: aqua; */
         width: 65%;
         height: 500px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .image{
         height: 400px;
         margin-left: 10px;
         margin-top: 80px;
         width: 35%;
-        border-radius: 10px;
         margin-bottom: 20px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
 @media screen and (max-width: 800px) {
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 10px;
         margin-left: 0px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .intro{
         margin-top: 150px;
         /* background-color: aqua; */
         width: 70%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .github{
-        background-color: #000;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
         margin-bottom: 20px;
         margin-left: 0px;
-        font-weight: 600;
-        border-color: #000;
-        box-shadow: 0 3px 0 grey;
     }
     .image{
         height: 300px;
         margin-left: 0px;
         margin-top: 140px;
         width: 30%;
-        border-radius: 10px;
         margin-bottom: 20px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
@@ -714,30 +548,20 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         /* background-color: aqua; */
         width: 70%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     
     .github{
-        background-color: #000;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
         margin-bottom: 20px;
         margin-left: 0px;
-        font-weight: 600;
-        border-color: #000;
-        box-shadow: 0 3px 0 grey;
     }
     .image{
         height: 300px;
         margin-left: 0px;
         margin-top: 100px;
         width: 30%;
-        border-radius: 10px;
         margin-bottom: 20px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
@@ -746,15 +570,10 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         display: contents;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 20px;
         margin-left: 40px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .container{
         display: contents;
@@ -764,18 +583,13 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         /* background-color: aqua; */
         width: 100%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .image{
         height: 300px;
         margin-left: 80px;
         margin-top: 0px;
         width: 75%;
-        border-radius: 10px;
         margin-bottom: 0px;
-        animation-name: avatar;
-        animation-duration: 2s;
     } 
 }
 
@@ -784,15 +598,10 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         display: contents;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 30px;
         margin-left: 40px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
 
     .container{
@@ -804,18 +613,13 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         /* background-color: aqua; */
         width: 100%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .image{
         height: 300px;
         margin-left: 70px;
         margin-top: 0px;
         width: 75%;
-        border-radius: 10px;
         margin-bottom: 0px;
-        animation-name: avatar;
-        animation-duration: 2s;
     } 
 }
 
@@ -824,15 +628,10 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         display: contents;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 30px;
         margin-left: 40px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
 
     .container{
@@ -844,18 +643,13 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         /* background-color: aqua; */
         width: 100%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .image{
         height: 300px;
         margin-left: 70px;
         margin-top: 0px;
         width: 75%;
-        border-radius: 10px;
         margin-bottom: 0px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
@@ -865,12 +659,9 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         margin-left: 10px;
     }
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 35px;
     }
     .cypher{
-        font-family: cursive;
         font-size: 35px;
     }
     nav { 
@@ -879,48 +670,30 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         position: relative;
         width: 420px;
         height: 50px;
-        border-radius: 8px;
         font-size: 0;
-        background-color: #34495e;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 30px;
         margin-left: 130px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .intro{
         margin-top: 70px;
         /* background-color: aqua; */
         width: 90%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .github{
-        background-color: #000;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
         margin-bottom: 20px;
         margin-left: 10px;
-        font-weight: 600;
-        border-color: #000;
-        box-shadow: 0 3px 0 grey;
     }
     .linkedin{
-        background-color: #fff;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
         margin-left: 10px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
 }
 
@@ -931,24 +704,16 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         margin-left: 20px;
     }
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 35px;
     }
     .cypher{
-        font-family: cursive;
         font-size: 35px;
     }
     .message{
-        background-color: #1abc9c;
-        color: #fff;
         margin: 30px;
         margin-left: 130px;
         height: 40px;
         width: 150px;
-        border-radius: 8px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     nav { 
         margin: 0px auto 0;
@@ -956,58 +721,39 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         position: relative;
         width: 420px;
         height: 50px;
-        border-radius: 8px;
         font-size: 0;
-        background-color: #34495e;
     }
     .intro{
         margin-top: 70px;
         /* background-color: aqua; */
         width: 100%;
         height: 400px;
-        animation-name: intro;
-        animation-duration: 1s;
     }
     .github{
-        background-color: #000;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
         margin-bottom: 20px;
         margin-left: 10px;
-        font-weight: 600;
-        border-color: #000;
-        box-shadow: 0 3px 0 grey;
     }
     .linkedin{
-        background-color: #fff;
-        border-radius: 8px;
         height: 40px;
         width: 250px;
         margin-left: 10px;
-        font-weight: 600;
-        box-shadow: 0 3px 0 #000;
     }
     .image{
         height: 300px;
         margin-left: 50px;
         margin-top: 100px;
         width: 75%;
-        border-radius: 10px;
         margin-bottom: 0px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
 }
 
 @media screen and (max-width: 280px) {
     .thenine{
-        font-family: 'Kaushan Script', cursive;
-        color: #3498db;
         font-size: 25px;
     }
     .cypher{
-        font-family: cursive;
         font-size: 25px;
     }
     .image{
@@ -1015,10 +761,7 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         margin-left: 50px;
         margin-top: 150px;
         width: 75%;
-        border-radius: 10px;
         margin-bottom: 0px;
-        animation-name: avatar;
-        animation-duration: 2s;
     }
     .text{
         font-size: 25px;
