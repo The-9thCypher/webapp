@@ -23,6 +23,7 @@ nav {
     border-radius: 8px;
     font-size: 0;
     background-color: #34495e;
+    overflow: hidden;
 }
 
 nav a {
@@ -86,6 +87,14 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     width: 120px;
     left: 300px;
     background-color: #1abc9c;
+}
+
+.active{
+    background-color: #1abc9c;
+}
+
+nav .icon{
+    display: none;
 }
 
 .message{
@@ -634,6 +643,37 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         width: 150px;
     }
 
+    nav { 
+        margin: 0px auto 0;
+        margin-left: 0px;
+        position: relative;
+        width: 300px;
+        height: 50px;
+        font-size: 0;
+    }
+
+    nav a:not(:first-child) {
+        display: none;
+    }
+
+    nav a.icon {
+        float: right;
+        display: block;
+        width: 50px;
+    }
+
+    nav.responsive {position: relative;}
+    nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    nav.responsive a:not(.icon) {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
     .container{
         display: contents;
         margin-left: 10px;
@@ -694,14 +734,7 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
     .cypher{
         font-size: 35px;
     }
-    nav { 
-        margin: 0px auto 0;
-        margin-left: 0px;
-        position: relative;
-        width: 420px;
-        height: 50px;
-        font-size: 0;
-    }
+
     .message{
         margin: 30px;
         margin-left: 130px;
@@ -744,14 +777,6 @@ nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
         margin-left: 130px;
         height: 40px;
         width: 150px;
-    }
-    nav { 
-        margin: 0px auto 0;
-        margin-left: 0px;
-        position: relative;
-        width: 420px;
-        height: 50px;
-        font-size: 0;
     }
     .intro{
         margin-top: 70px;
