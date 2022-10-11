@@ -209,7 +209,7 @@ header{
         width: 150px;
     }
     .container{
-        margin-left: 30px;
+        margin-left: 0px;
         display: flex;
         /* background-color: #1abc9c; */
     }
@@ -269,7 +269,7 @@ header{
     }
     
     .container{
-        margin-left: 30px;
+        margin-left: 0px;
         display: flex;
         /* background-color: #1abc9c; */
     }
@@ -337,7 +337,7 @@ header{
     }
     
     .container{
-        margin-left: 30px;
+        margin-left: 0px;
         display: flex;
         /* background-color: #1abc9c; */
     }
@@ -398,7 +398,7 @@ header{
         width: 150px;
     }
     .container{
-        margin-left: 30px;
+        margin-left: 0px;
         display: flex;
         /* background-color: #1abc9c; */
     }
@@ -456,6 +456,7 @@ header{
     .intro{
         margin-top: 150px;
         /* background-color: aqua; */
+        margin-left: 10px;
         width: 65%;
         height: 400px;
     }
@@ -539,6 +540,12 @@ header{
 }
 
 @media screen and (min-width: 768px) {
+    .message{
+        margin: 10px;
+        margin-left: 10px;
+        height: 40px;
+        width: 150px;
+    }
     .intro{
         margin-top: 120px;
         /* background-color: aqua; */
@@ -577,7 +584,8 @@ header{
     .intro{
         margin-top: 70px;
         /* background-color: aqua; */
-        width: 100%;
+        width: 90%;
+        margin-left: 10px;
         height: 400px;
     }
     .image{
@@ -607,7 +615,8 @@ header{
     .intro{
         margin-top: 70px;
         /* background-color: aqua; */
-        width: 100%;
+        width: 90%;
+        margin-left: 10px;
         height: 400px;
     }
     .image{
@@ -637,7 +646,8 @@ header{
     .intro{
         margin-top: 70px;
         /* background-color: aqua; */
-        width: 100%;
+        margin-left: 10px;
+        width: 90%;
         height: 400px;
     }
     .image{
@@ -670,6 +680,7 @@ header{
     .intro{
         margin-top: 70px;
         /* background-color: aqua; */
+        margin-left: 10px;
         width: 90%;
         height: 400px;
     }
@@ -707,7 +718,8 @@ header{
     .intro{
         margin-top: 70px;
         /* background-color: aqua; */
-        width: 100%;
+        margin-left: 10px;
+        width: 90%;
         height: 400px;
     }
     .github{
