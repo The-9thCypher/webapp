@@ -11,7 +11,7 @@ header{
 }
 
 .cypher{
-    font-family: cursive;
+    font-family: 'Kaushan Script' ,cursive;
 }
 
 nav { 
@@ -99,6 +99,7 @@ nav .icon{
 
 .message{
     background-color: #1abc9c;
+    position: relative;
     color: #fff;
     margin: 45px;
     height: auto;
