@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script
       src="https://kit.fontawesome.com/ab93eae317.js"
       crossorigin="anonymous"
@@ -22,15 +23,35 @@
     <h2 class="thenine">The 9th&nbsp;</h2>
     <h2 class="cypher">Cypher</h2>
     </div>
-    <div class="ipad">
-    <nav id="mytopnav" class="topnav">
-      <a href="#" class="active">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Resources</a>
-      <a href="#">Portfolio</a>
-      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-      <div class="animation start-HOME"></div>
+   <!-- NAVSTART------------------------- -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >Portfolio</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
+
+
+    <!-- NAV ENDING////////////////////// -->
     <button class="message"><span class="fa-brands fa-whatsapp" style=" margin-right: auto; font-size: 20px; color:#fff; font-family: Font Awesome 5 Free; font-weight: 900;"></span>&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=2348179726172&text=The9thCypher" target="_blank">Message me</a></button>
     </div>
   </header>
@@ -100,6 +121,9 @@
         <span class="fa-brands fa-js" style="font-weight: 900; font-size: 50px; font-family: Font Awesome 5 Free; ">&nbsp;</span>
         <span class="fa-brands fa-python" style="font-weight: 900; font-size: 50px; font-family: Font Awesome 5 Free; ">&nbsp;</span>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script> 
     <script src="script.js"></script>
+    
   </body>
 </html>

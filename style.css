@@ -14,87 +14,15 @@ header{
     font-family: 'Kaushan Script' ,cursive;
 }
 
-nav { 
-    margin: auto;
-    margin-left: auto;
-    position: relative;
-    width: auto;
-    height: auto;
-    border-radius: 8px;
-    font-size: 0;
-    background-color: #34495e;
-    overflow: hidden;
-}
-
-nav a {
-    line-height: 50px;
-    height: 100%;
-    font-size: 15px;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    text-decoration: none;
-    text-transform: uppercase;
+.navbar-brand{
+    background-color: #1abc9c;
+    width: 100px;
     text-align: center;
-    color: #fff;
-    cursor: pointer;
-}
-
-nav .animation{
-    position: absolute;
-    height: 100%;
-    top: 0;
-    z-index: 0;
-    transition: all .5s ease 0s;
     border-radius: 8px;
 }
 
-a:nth-child(1) {
-    width: 100px;
-}
-
-a:nth-child(2) {
-    width: 100px;
-}
-
-a:nth-child(3) {
-    width: 100px;
-}
-
-a:nth-child(4) {
-    width: 120px;
-}
-
-nav.start-HOME, a:nth-child(1):hover~.animation {
-    width: 100px;
-    left: 0;
-    background-color: #1abc9c;
-}
-
-nav.start-SERVICES, a:nth-child(2):hover~.animation {
-    width: 100px;
-    left: 100px;
-    background-color: #e74c3c;
-}
-
-nav.start-RESOURCES, a:nth-child(3):hover~.animation {
-    width: 100px;
-    left: 200px;
-    background-color: #3498db;
-}
-
-nav.start-PORTFOLIO, a:nth-child(4):hover~.animation {
-    width: 120px;
-    left: 300px;
-    background-color: #1abc9c;
-}
-
-.active{
-    background-color: #1abc9c;
-}
-
-nav .icon{
-    display: none;
+.nav-item{
+    font-size: 400;
 }
 
 .message{
@@ -255,7 +183,7 @@ nav .icon{
 @media screen and (max-width: 2560px) {
     header{
         display: flex;
-        margin-left: 10px;
+        margin-left: 600px;
         /* background-color: #1abc9c; */
         position: relative;
     }
@@ -272,14 +200,6 @@ nav .icon{
     }
     .ipad{
         display: flex;
-    }
-    nav { 
-        margin: 40px auto 0;
-        margin-left: 200px ;
-        position: relative;
-        width: auto;
-        height: 50px;
-        font-size: 0;
     }
 
     .message{
@@ -317,10 +237,11 @@ nav .icon{
     }
 }
 
-@media screen and (min-width:1280px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     header{
         display: flex;
-        margin-left: 30px;
+        margin-left: 0px;
+        margin-top: 30px;
         /* background-color: #1abc9c; */
         position: relative;
     }
@@ -340,14 +261,6 @@ nav .icon{
         display: flex;
     }
     
-    nav { 
-        margin: 40px auto 0;
-        margin-left: 100px ;
-        position: relative;
-        width: auto;
-        height: 50px;
-        font-size: 0;
-    }
     .message{
         margin: 45px;
         margin-left: 150px;
@@ -388,6 +301,74 @@ nav .icon{
     }
 }
 
+@media screen and (max-width: 1280px) {
+    header{
+        display: flex;
+        margin-left: 0px;
+        margin-top: 30px;
+        /* background-color: #1abc9c; */
+        position: relative;
+    }
+    .wname{
+        display: flex;
+    }
+
+    .thenine{
+        font-size: 40px;
+    }
+    
+    .cypher{
+        font-size: 40px;
+    }
+
+    .ipad{
+        display: flex;
+    }
+
+    .ipad{
+        display: flex;
+    }
+    
+    .message{
+        margin: 45px;
+        margin-left: 150px;
+        height: 40px;
+        width: 150px;
+    }
+    
+    .container{
+        margin-left: 30px;
+        display: flex;
+        /* background-color: #1abc9c; */
+    }
+    
+    .intro{
+        margin-top: 150px;
+        /* background-color: aqua; */
+        width: 50%;
+        height: 300px;
+    }
+    
+    .github{
+        height: 40px;
+        width: 250px;
+    }
+    
+    .linkedin{
+        height: 40px;
+        width: 250px;
+    }
+    
+    .image{
+        height: 400px;
+        margin-left: 150px;
+        margin-top: 80px;
+        width: 35%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    } 
+}
+
 @media screen and (min-width: 913px) and (max-width: 1279px) {
     header{
         display: contents;
@@ -408,14 +389,6 @@ nav .icon{
     }
     .ipad{
         display: flex;
-    }
-    nav { 
-        margin: 40px auto 0;
-        margin-left: 11px ;
-        position: relative;
-        width: auto;
-        height: 50px;
-        font-size: 0;
     }
 
     .message{
@@ -473,14 +446,6 @@ nav .icon{
     .ipad{
         display: flex;
     }
-
-    nav { 
-        margin: 0px auto 0;
-        margin-left: 40px;
-        position: relative;
-        width: 420px;
-        height: 50px;
-    }
     .message{
         margin: 10px;
         margin-left: 0px;
@@ -523,15 +488,6 @@ nav .icon{
     }
     .ipad{
         display: flex;
-    }
-
-    nav { 
-        margin: 0px auto 0;
-        margin-left: 40px;
-        position: relative;
-        width: 420px;
-        height: 50px;
-        font-size: 0;
     }
     .message{
         margin: 10px;
@@ -642,37 +598,6 @@ nav .icon{
         margin-left: 40px;
         height: 40px;
         width: 150px;
-    }
-
-    nav { 
-        margin: 0px auto 0;
-        margin-left: 0px;
-        position: relative;
-        width: 300px;
-        height: 50px;
-        font-size: 0;
-    }
-
-    nav a:not(:first-child) {
-        display: none;
-    }
-
-    nav a.icon {
-        float: right;
-        display: block;
-        width: 50px;
-    }
-
-    nav.responsive {position: relative;}
-    nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    }
-    nav.responsive a:not(.icon) {
-    float: none;
-    display: block;
-    text-align: left;
     }
 
     .container{
