@@ -22,7 +22,7 @@ header{
 }
 
 .nav-item{
-    font-size: 400;
+    font-weight: 600;
 }
 
 .message{
@@ -325,9 +325,6 @@ header{
         display: flex;
     }
 
-    .ipad{
-        display: flex;
-    }
     
     .message{
         margin: 45px;
@@ -415,7 +412,7 @@ header{
     }
     .linkedin{
         height: 40px;
-        width: 240px;
+        width: 250px;
     }
     .image{
         height: 400px;
@@ -653,7 +650,7 @@ header{
     .image{
         height: 300px;
         margin-left: 70px;
-        margin-top: 0px;
+        margin-top: 40px;
         width: 75%;
         margin-bottom: 0px;
     }
@@ -736,7 +733,7 @@ header{
     .image{
         height: 300px;
         margin-left: 50px;
-        margin-top: 100px;
+        margin-top: 150px;
         width: 75%;
         margin-bottom: 0px;
     }
@@ -751,8 +748,8 @@ header{
     }
     .image{
         height: 300px;
-        margin-left: 50px;
-        margin-top: 150px;
+        margin-left: 40px;
+        margin-top: 250px;
         width: 75%;
         margin-bottom: 0px;
     }
