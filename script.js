@@ -9,4 +9,3 @@ function github() {
 function linkedin() {
     window.open('https://www.linkedin.com/in/shyllon-olayinka-31b925247/' , '_blank');
 }
-
